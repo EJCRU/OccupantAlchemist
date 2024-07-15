@@ -1,0 +1,96 @@
+
+
+
+message:
+  lose: "&cВы не смогли смешать зелье." # EN: This message means that you were unable to combine the potions.
+  win: "&fВы &aуспешно смешали зелье." #EN: This message means success in combining potions.
+  no_money: "&fК &cсожалению, &fу вас нет денег" #EN: This message means a shortage of money.
+  no_potion: "&fЧтобы смешать зелье нужно чтобы было как минимум 2 зелья." #EN: This message means that there are not 2 potions, but only one.
+  limit: "превышен лимит"
+  potion_fuck: "смешенные зелья нельзя смешивать"
+
+
+potion_name: "зелье"
+
+limit_potion: 2
+
+buster:
+  default:
+    chance: 10
+    discount: 1200
+  admin:
+    discount: 0
+    chance: 100
+
+
+animation:
+  bad_material: "BARRIER"
+  name_bad: "ТЫ ЛООХ!!!"
+  material: "ORANGE_STAINED_GLASS_PANE"
+  close_inventory: 5
+  name: '&7'
+  potion: 22
+  time: 250
+  slot:
+    - "0;44"
+    - "1;43"
+    - "2;42"
+    - "3;41"
+    - "4;40"
+    - "5;39"
+    - "6;38"
+    - "7;37"
+    - "8;36"
+
+
+menu: #EN: This is setting for menu.
+  name: "Алхимик"
+  size: 45
+  action: 22
+
+item:
+  1:
+    material: "ORANGE_STAINED_GLASS_PANE"
+    name: '&7'
+    slot:
+      - 0
+      - 1
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 37
+      - 43
+      - 44
+  3:
+    material: "PLAYER_HEAD"
+    head: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5NzJlODkyNWY3OWFhZTcyZWI5ZjYyY2FmOGExNjFhMzg5MWI1MWJiNGZiZDRmMWY0YmVjNWNiNjA1YmVjNSJ9fX0="
+    slot:
+      - 22
+
+    name: "&e&nСмешать зелья"
+    lore:
+      - ""
+      - "&e╔ &fВаш шанс на удачу:#ff7300 %chance%%"
+      - "&e╠ &fВаш баланс %balance%!"
+      - "&e╚ &fЦена: #0dff00$%discount%"
+      - ""
+  2:
+    material: "YELLOW_STAINED_GLASS_PANE"
+    name: '&7'
+    slot:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42

@@ -1,0 +1,7 @@
+name: OccupantAlchemist
+version: '${project.version}'
+main: org.spoofer.alchemist.Main
+api-version: '1.16'
+depend:
+  - Vault
+  - SLibAndAPI
